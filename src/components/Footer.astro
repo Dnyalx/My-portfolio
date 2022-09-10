@@ -1,0 +1,27 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer>
+	&copy; {currentYear} Danny Alexander E
+	<small class="byline">🚀 Built by Astro</small>
+</footer>
+<style>
+	footer {
+		margin: 2px;
+		border-top: 2px solid whitesmoke;
+		text-align: center;
+		padding-top: 20px;
+		padding-right: 2px;
+		padding-bottom: 20px;
+		padding-left: 2px;
+	}
+
+	.byline {
+		display: block;
+		margin-top: 1rem;
+		color: var(--t-subdue);
+		font-size: var(--f-d2);
+		text-transform: uppercase;
+	}
+</style>
